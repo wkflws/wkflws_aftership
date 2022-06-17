@@ -28,7 +28,6 @@ async def process_webhook_request(
 
     webhook_data = WebhookData(
         webhook_event=data.get("event"),
-        # updated_at=tracking_data.get("updated_at", None),
         tracking_number=tracking_data.get("tracking_number", None),
         title=tracking_data.get("title", None),
         tag=tracking_data.get("tag", None),
