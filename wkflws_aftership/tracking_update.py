@@ -10,7 +10,7 @@ async def process_tracking_update(
     """Process Aftership tracking update events.
 
     Args:
-        data: The pull request payload from Aftership.
+        data: The payload from Aftership.
         context: Contextual information about the workflow being executed.
     """
     return data
